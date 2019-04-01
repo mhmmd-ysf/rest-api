@@ -1,6 +1,8 @@
 # rest-api
 REST API built with Express and Sequelize
 
+[link](https://banana-pudding-65840.herokuapp.com/)
+
 List of basic routes:
 
 Route | HTTP | Header(s) | Body | Description 
