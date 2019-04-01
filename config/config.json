@@ -1,9 +1,10 @@
 {
   "production": {
-    "username": "postgres",
-    "password": "951235785a",
-    "database": "phase2Student",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "rwoquqkubqzvvs",
+    "password": "16b5d5261f23af03b96408b70a6164d5c6befa3224894bb530d2172285a8e963",
+    "database": "d1d3a1m3h824pm",
+    "host": "ec2-54-225-113-7.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "port": 5432
   }
 }
