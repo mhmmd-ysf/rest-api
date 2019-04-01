@@ -3,13 +3,6 @@ REST API built with Express and Sequelize
 
 [link](https://banana-pudding-65840.herokuapp.com/api)
 
-List of basic routes:
-
-Route | HTTP | Header(s) | Body | Description 
---- | --- | --- | --- | ---
-`/api/hello?name={name}` | GET  | `none`    | `none` | Print hello, `{name}`
-
-
 List of user routes:
 
 Route | HTTP | Header(s) | Body | Description
@@ -19,9 +12,3 @@ Route | HTTP | Header(s) | Body | Description
 `/api/users` | POST | `none` | `username:string` __(Required)__,<br>`password:string` __(Required)__ | Create a user
 `/api/users/:id` | DELETE | `none` | `none` | Delete a user
 `/api/users/:id` | PUT | `none` |`username:string` __(Required)__,<br>`password:string` __(Required)__ | Update a user with new info
-
-List if filter routes:
-
-Route | HTTP | Description
---- | --- | ---
-`/api/users?name=<KEYWORD>` | GET | Get users by name
