@@ -2,9 +2,9 @@
 REST API built with Express and Sequelize
 
 List of basic routes:
-Route                    | HTTP | Header(s) | Body   | Description          
--------------------------|------|-----------|--------|----------------------
-`/api/hello?name={name}` | GET  | `none`    | `none` | Print hello, `{name}`
+|Route| HTTP | Header(s) | Body | Description|
+|-|-|-|-|-|
+|`/api/hello?name={name}` | GET| `none`| `none` | Print hello, `{name}`|
 
 List of user routes:
 Route | HTTP | Header(s) | Body | Description
