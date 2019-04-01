@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000
 
 const config = {
   "production": {
-    "username": "postgres",
+    "username": process.env.USERNAME,
     "password": process.env.PASSWORD,
     "database": "phase2Student",
     "host": "127.0.0.1",
